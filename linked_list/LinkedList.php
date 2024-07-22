@@ -152,7 +152,9 @@ try{
     $ll->pop_back();
     $ll->display();
 }catch(Exception $e){
-    echo "Error: " . $e;
+    echo "Error: " . $e->getMessage();
 }
+
+
 
 ?>
